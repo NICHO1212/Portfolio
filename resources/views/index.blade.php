@@ -29,16 +29,19 @@
         </div>
         <div class="links">
           <div class="link">
-            <img src="" alt="" />
-            <h2>About Me</h2>
+            <a href="{{ route('contact') }}">
+              <h2>About Me</h2>
+            </a>
           </div>
           <div class="link">
-            <img src="" alt="" />
-            <h2>Git</h2>
+            <a href="{{ route('contact') }}">
+              <h2>Repositories</h2>
+            </a>
           </div>
           <div class="link">
-            <img src="" alt="" />
-            <h2>Contact</h2>
+            <a href="{{ route('contact') }}">
+              <h2>Contact</h2>
+            </a>
           </div>
         </div>
       </div>
