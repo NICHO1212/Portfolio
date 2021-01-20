@@ -28,12 +28,12 @@
   <main>
     <section class="glass">
       <div class="dashboard">
-        <div class="user">
+        <div>
           <img src="" alt="" />
           <h3>Esteban Salas Guzmán</h3>
           <p>Software Developer</p>
         </div>
-        <div class="links">
+        <div>
           <div class="link">
             <a href="{{ url('contact') }}">
               <h2>About Me</h2>
