@@ -130,6 +130,7 @@
   .card-info {
     display: flex;
     justify-content: space-between;
+    vertical-align: middle;
   }
 
   .card-info a {
