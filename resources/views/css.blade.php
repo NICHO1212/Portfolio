@@ -1,7 +1,7 @@
 <style>
   :root {
-    --color1:#1a1a2e;
-    --color2: #16213e;
+    --color1:#426696;
+    --color2: #658ec6;
   }
 </style>
 
@@ -19,12 +19,12 @@
 
   h2,
   p {
-    color: var(--color1);
+    color: var(--color2);
     opacity: 0.8;
   }
 
   h3 {
-    color: var(--color2);
+    color: var(--color1);
     opacity: 0.8;
   }
 
@@ -36,7 +36,7 @@
   main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, var(--color1), var(--color2));
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,7 @@
     justify-content: space-evenly;
     text-align: center;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
-    border-radius: 2rem;
+    border-radius: 0.5rem;
   }
 
   .form-control,
@@ -122,13 +122,17 @@
     border-radius: 1rem;
     margin: 0.5rem 0rem;
     padding: 0.5rem;
-    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.8);
     justify-content: space-between;
   }
 
   .card-info {
     display: flex;
     justify-content: space-between;
+  }
+
+  .card-info a {
+
   }
 
 </style>
