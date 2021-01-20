@@ -9,15 +9,21 @@
     color: #426696;
     opacity: 0.8;
   }
+
   h2,
   p {
     color: #658ec6;
     opacity: 0.8;
   }
 
+  h3 {
+    color: #426696;
+    opacity: 0.8;
+  }
+
   label {
     color: #658ec6;
-    opacity: 0.9;
+    opacity: 0.6;
   }
 
   .form-control,
@@ -25,13 +31,14 @@
   input[type="text"]:focus,
   input[type="text"]::placeholder {
     border-color: #426696;
-    background-color: #658ec6;
+    background: white;
     color: #426696;
-  }
-
-  h3 {
-    color: #426696;
-    opacity: 0.8;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 0.5rem;
   }
 
   main {
@@ -103,34 +110,13 @@
     padding: 0rem 0.5rem;
   }
 
-  .content {
-    flex: 2;
-  }
-
-  .pro {
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    border-radius: 2rem;
-    color: white;
-    padding: 0.5rem;
-    position: relative;
-  }
-
-  .pro img {
-    position: absolute;
-    top: -10%;
-    right: 10%;
-  }
-  .pro h2 {
-    width: 40%;
-    color: white;
-  }
-
   /* content */
   .content-head {
     margin: 0.5rem;
   }
 
   .content {
+    flex: 2;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -156,10 +142,4 @@
     justify-content: space-between;
   }
 
-  .percentage {
-    font-weight: bold;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
 </style>
