@@ -140,6 +140,7 @@
   .card-info {
     display: flex;
     justify-content: space-between;
+    align-content: center;
   }
 
   .percentage {
