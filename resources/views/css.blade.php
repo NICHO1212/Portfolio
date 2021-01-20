@@ -38,9 +38,9 @@
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.3)
     );
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     z-index: 2;
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(0.5rem);
     display: flex;
   }
   .circle1,
@@ -51,8 +51,8 @@
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.3)
     );
-    height: 20rem;
-    width: 20rem;
+    height: 10rem;
+    width: 10rem;
     position: absolute;
     border-radius: 50%;
   }
@@ -81,12 +81,12 @@
   }
   .link {
     display: flex;
-    margin: 2rem 0rem;
-    padding: 1rem 2rem;
+    margin: 0.5rem 0rem;
+    padding: 0.25rem 0.5rem;
     align-items: center;
   }
   .link h2 {
-    padding: 0rem 2rem;
+    padding: 0rem 0.5rem;
   }
 
   .games {
@@ -97,7 +97,7 @@
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     border-radius: 2rem;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     position: relative;
   }
 
@@ -113,7 +113,7 @@
 
   /* GAMES */
   .status {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .status input {
@@ -129,7 +129,7 @@
   }
 
   .games {
-    margin: 5rem;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -143,28 +143,12 @@
       rgba(255, 255, 255, 0.5)
     );
     border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
   }
 
-  .progress {
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    width: 100%;
-    height: 25%;
-    border-radius: 1rem;
-    position: relative;
-    overflow: hidden;
-  }
-  .progress::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: rgb(236, 236, 236);
-    position: absolute;
-    left: 60%;
-  }
   .card-info {
     display: flex;
     flex-direction: column;

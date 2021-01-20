@@ -21,68 +21,32 @@
         <main>
             <section class="glass">
                 <div class="dashboard">
-                <div class="user">
-                    <img src="" alt="" />
-                    <h3>Simo Edwin</h3>
-                    <p>Pro Member</p>
-                </div>
-                <div class="links">
-                    <div class="link">
-                    <img src="" alt="" />
-                    <h2>Streams</h2>
+                    <div class="user">
+                        <img src="" alt="" />
+                        <h3>Simo Edwin</h3>
+                        <p>Pro Member</p>
                     </div>
-                    <div class="link">
-                    <img src="" alt="" />
-                    <h2>Games</h2>
+                    <div class="links">
+                        <div class="link">
+                            <img src="" alt="" />
+                            <h2>Streams</h2>
+                        </div>
                     </div>
-                    <div class="link">
-                    <img src="" alt="" />
-                    <h2>New</h2>
-                    </div>
-                    <div class="link">
-                    <img src="" alt="" />
-                    <h2>Library</h2>
-                    </div>
-                </div>
-                <div class="pro">
-                    <h2>Join pro for free games.</h2>
-                    <img src="" alt="" />
-                </div>
                 </div>
                 <div class="games">
-                <div class="status">
-                    <h1>Active Games</h1>
-                    <input type="text" />
-                </div>
-                <div class="cards">
-                    <div class="card">
-                    <img src="" alt="" />
-                    <div class="card-info">
-                        <h2>Assassins Creed Valhalla</h2>
-                        <p>PS5 Version</p>
-                        <div class="progress"></div>
+                    <div class="status">
+                        <h1>Active Games</h1>
                     </div>
-                    <h2 class="percentage">60%</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="" alt="" />
+                            <div class="card-info">
+                                <h2>Assassins Creed Valhalla</h2>
+                                <p>PS5 Version</p>
+                            </div>
+                            <h2 class="percentage">60%</h2>
+                        </div>
                     </div>
-                    <div class="card">
-                    <img src="" alt="" />
-                    <div class="card-info">
-                        <h2>Sackboy A Great Advanture</h2>
-                        <p>PS5 Version</p>
-                        <div class="progress"></div>
-                    </div>
-                    <h2 class="percentage">60%</h2>
-                    </div>
-                    <div class="card">
-                    <img src="" alt="" />
-                    <div class="card-info">
-                        <h2>Spiderman Miles Morales</h2>
-                        <p>PS5 Version</p>
-                        <div class="progress"></div>
-                    </div>
-                    <h2 class="percentage">60%</h2>
-                    </div>
-                </div>
                 </div>
             </section>
         </main>
