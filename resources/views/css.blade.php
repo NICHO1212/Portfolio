@@ -130,11 +130,11 @@
   .card-info {
     display: flex;
     justify-content: space-between;
-    vertical-align: middle;
   }
 
-  .card-info a {
-
+  .card-info a,
+  .card-info a:hover {
+    color: var(--color1);
   }
 
 </style>

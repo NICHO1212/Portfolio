@@ -8,13 +8,19 @@
   <div class="card">
     <div class="card-info">
       <a href="https://t.me/EstebanSalasGuzman">
-        Telegram - <i class="fab fa-telegram fa-3x"></i>
+        <i class="fab fa-telegram fa-3x"></i>
       </a>
       <a href="https://twitter.com/Nicho_Esteban">
-        Twitter - <i class="fab fa-twitter fa-3x"></i>
+        <i class="fab fa-twitter fa-3x"></i>
       </a>
       <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw">
-        YouTube - <i class="fab fa-youtube fa-3x"></i>
+        <i class="fab fa-youtube fa-3x"></i>
+      </a>
+      <a href="https://github.com/NICHO1212">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://bitbucket.org/nicho1212/">
+        <i class="fab fa-bitbucket"></i>
       </a>
     </div>
   </div>
