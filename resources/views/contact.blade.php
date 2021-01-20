@@ -6,15 +6,17 @@
 </div>
 <div class="cards">
   <div class="card">
-    <a href="https://t.me/EstebanSalasGuzman">
-      <i class="fab fa-telegram"></i>
-    </a>
-    <a href="https://twitter.com/Nicho_Esteban">
-      <i class="fab fa-twitter"></i>
-    </a>
-    <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw">
-      <i class="fab fa-youtube"></i>
-    </a>
+    <div class="card-info">
+      <a href="https://t.me/EstebanSalasGuzman">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://twitter.com/Nicho_Esteban">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
   </div>
   <div class="card">
     <p>Send me a message</p>

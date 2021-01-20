@@ -137,7 +137,12 @@
     justify-content: space-between;
     align-content: center;
   }
-  
+
+  .card-info {
+    display: flex;
+    align-content: center;
+  }
+
   .percentage {
     font-weight: bold;
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
