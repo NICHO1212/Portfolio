@@ -17,10 +17,10 @@
         <i class="fab fa-youtube fa-3x"></i>
       </a>
       <a href="https://github.com/NICHO1212">
-        <i class="fab fa-github"></i>
+        <i class="fab fa-github fa-3x"></i>
       </a>
       <a href="https://bitbucket.org/nicho1212/">
-        <i class="fab fa-bitbucket"></i>
+        <i class="fab fa-bitbucket fa-3x"></i>
       </a>
     </div>
   </div>
