@@ -26,7 +26,8 @@
     opacity: 0.6;
   }
 
-  .form-control {
+  .form-control,
+  .form-control:focus {
     border-color: #426696;
     background: white;
     color: #426696;
