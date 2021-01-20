@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Esteban Salas Guzmán</title>
+
+  <script src="{{ asset('js/app.js') }}" defer></script>
+
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
@@ -16,7 +19,10 @@
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" 
     crossorigin="anonymous"
   >
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
   @include('css')
+
 </head>
 <body>
   <main>
