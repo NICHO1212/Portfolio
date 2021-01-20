@@ -89,7 +89,7 @@
     padding: 0rem 0.5rem;
   }
 
-  .games {
+  .content {
     flex: 2;
   }
 
@@ -111,12 +111,12 @@
     color: white;
   }
 
-  /* GAMES */
-  .status {
+  /* content */
+  .content-head {
     margin: 0.5rem;
   }
 
-  .games {
+  .content {
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
