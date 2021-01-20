@@ -26,10 +26,7 @@
     opacity: 0.6;
   }
 
-  .form-control,
-  input[type="text"],
-  input[type="text"]:focus,
-  input[type="text"]::placeholder {
+  .form-control {
     border-color: #426696;
     background: white;
     color: #426696;
@@ -39,6 +36,10 @@
       rgba(255, 255, 255, 0.3)
     );
     border-radius: 0.5rem;
+  }
+
+  input[type="text"]::placeholder {
+    color: #426696;
   }
 
   main {
