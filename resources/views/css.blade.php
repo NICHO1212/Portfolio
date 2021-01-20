@@ -70,7 +70,7 @@
 
   .circle2 {
     bottom: 5%;
-    left: 10%;
+    left: 15%;
   }
 
   .dashboard {
@@ -85,7 +85,8 @@
   }
 
   .form-control,
-  .form-control:focus {
+  .form-control:focus,
+  .btn {
     border-color: var(--color2);
     background: white;
     color: var(--color2);
