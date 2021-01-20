@@ -2,8 +2,8 @@
   :root {
     --background1:#1a1a2e;
     --background2: #16213e;
-    --font1: #426696;
-    --font2: #658ec6;
+    --font1: #e94560;
+    --font2: #ec4646;
   }
 </style>
 
@@ -58,7 +58,7 @@
   .circle1,
   .circle2 {
     background: white;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(26, 26, 46, 0.8), rgba(22, 33, 62, 0.3));
     height: 10rem;
     width: 10rem;
     position: absolute;
@@ -82,7 +82,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(26, 26, 46, 0.7), rgba(22, 33, 62, 0.3));
     border-radius: 2rem;
   }
 
@@ -91,7 +91,7 @@
     border-color: var(--font2);
     background: white;
     color: var(--font2);
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(26, 26, 46, 0.7), rgba(22, 33, 62, 0.3));
     border-radius: 0.5rem;
   }
 
@@ -120,11 +120,11 @@
 
   .card {
     display: flex;
-    background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+    background: linear-gradient(to left top, rgba(26, 26, 46, 0.8), rgba(22, 33, 62, 0.5));
     border-radius: 1rem;
     margin: 0.5rem 0rem;
     padding: 0.5rem;
-    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    box-shadow: 6px 6px 20px rgba(26, 26, 46, 0.212);
     justify-content: space-between;
   }
 
