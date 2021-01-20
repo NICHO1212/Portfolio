@@ -1,9 +1,7 @@
 <style>
   :root {
-    --background1:#1a1a2e;
-    --background2: #16213e;
-    --font1: #e94560;
-    --font2: #ec4646;
+    --color1:#1a1a2e;
+    --color2: #16213e;
   }
 </style>
 
@@ -15,30 +13,30 @@
   }
 
   h1 {
-    color: var(--font1);
+    color: var(--color1);
     opacity: 0.8;
   }
 
   h2,
   p {
-    color: var(--font1);
+    color: var(--color1);
     opacity: 0.8;
   }
 
   h3 {
-    color: var(--font2);
+    color: var(--color2);
     opacity: 0.8;
   }
 
   label {
-    color: var(--font1);
+    color: var(--color1);
     opacity: 0.8;
   }
 
   main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, var(--background1), var(--background2));
+    background: linear-gradient(to right top, var(--color1), var(--color2));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,9 +86,9 @@
 
   .form-control,
   .form-control:focus {
-    border-color: var(--font2);
+    border-color: var(--color2);
     background: white;
-    color: var(--font2);
+    color: var(--color2);
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 0.5rem;
   }
