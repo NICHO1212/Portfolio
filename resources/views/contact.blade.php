@@ -2,22 +2,19 @@
 
 @section('content')
 <div class="content-head">
-  <h1>Contact to Me</h1>
+  <h1>Contact</h1>
 </div>
 <div class="cards">
-  <h1>Contact</h1>
   <div class="card">
-    <div class="card-info">
-      <a href="https://t.me/EstebanSalasGuzman">
-        <i class="fab fa-telegram"></i>
-      </a>
-      <a href="https://twitter.com/Nicho_Esteban">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw">
-        <i class="fab fa-youtube"></i>
-      </a>
-    </div>
+    <a href="https://t.me/EstebanSalasGuzman">
+      <i class="fab fa-telegram"></i>
+    </a>
+    <a href="https://twitter.com/Nicho_Esteban">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw">
+      <i class="fab fa-youtube"></i>
+    </a>
   </div>
   <div class="card">
     <p>Send me a message</p>

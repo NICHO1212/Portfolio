@@ -135,14 +135,9 @@
     padding: 0.5rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
-  }
-
-  .card-info {
-    display: flex;
-    justify-content: space-between;
     align-content: center;
   }
-
+  
   .percentage {
     font-weight: bold;
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
