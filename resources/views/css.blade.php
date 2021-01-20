@@ -113,19 +113,7 @@
 
   /* GAMES */
   .status {
-    margin-bottom: 0.5rem;
-  }
-
-  .status input {
-    background: linear-gradient(
-      to right bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.3)
-    );
-    border: none;
-    width: 50%;
-    padding: 0.5rem;
-    border-radius: 2rem;
+    margin: 0.5rem;
   }
 
   .games {
