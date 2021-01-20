@@ -4,97 +4,85 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Esteban Salas Guzmán</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
+            
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
+        <main>
+            <section class="glass">
+                <div class="dashboard">
+                <div class="user">
+                    <img src="./images/avatar.png" alt="" />
+                    <h3>Simo Edwin</h3>
+                    <p>Pro Member</p>
                 </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <div class="link">
+                    <img src="./images/twitch.png" alt="" />
+                    <h2>Streams</h2>
+                    </div>
+                    <div class="link">
+                    <img src="./images/steam.png" alt="" />
+                    <h2>Games</h2>
+                    </div>
+                    <div class="link">
+                    <img src="./images/upcoming.png" alt="" />
+                    <h2>New</h2>
+                    </div>
+                    <div class="link">
+                    <img src="./images/library.png" alt="" />
+                    <h2>Library</h2>
+                    </div>
                 </div>
-            </div>
-        </div>
+                <div class="pro">
+                    <h2>Join pro for free games.</h2>
+                    <img src="./images/controller.png" alt="" />
+                </div>
+                </div>
+                <div class="games">
+                <div class="status">
+                    <h1>Active Games</h1>
+                    <input type="text" />
+                </div>
+                <div class="cards">
+                    <div class="card">
+                    <img src="./images/assassins.png" alt="" />
+                    <div class="card-info">
+                        <h2>Assassins Creed Valhalla</h2>
+                        <p>PS5 Version</p>
+                        <div class="progress"></div>
+                    </div>
+                    <h2 class="percentage">60%</h2>
+                    </div>
+                    <div class="card">
+                    <img src="./images/sackboy.png" alt="" />
+                    <div class="card-info">
+                        <h2>Sackboy A Great Advanture</h2>
+                        <p>PS5 Version</p>
+                        <div class="progress"></div>
+                    </div>
+                    <h2 class="percentage">60%</h2>
+                    </div>
+                    <div class="card">
+                    <img src="./images/spiderman.png" alt="" />
+                    <div class="card-info">
+                        <h2>Spiderman Miles Morales</h2>
+                        <p>PS5 Version</p>
+                        <div class="progress"></div>
+                    </div>
+                    <h2 class="percentage">60%</h2>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+        
     </body>
 </html>
