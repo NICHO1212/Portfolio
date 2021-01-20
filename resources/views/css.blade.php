@@ -7,20 +7,16 @@
 
   h1 {
     color: #426696;
-    font-weight: 600;
-    font-size: 3rem;
     opacity: 0.8;
   }
   h2,
   p {
     color: #658ec6;
-    font-weight: 500;
     opacity: 0.8;
   }
 
   h3 {
     color: #426696;
-    font-weight: 600;
     opacity: 0.8;
   }
 
@@ -86,7 +82,7 @@
   .link {
     display: flex;
     margin: 2rem 0rem;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     align-items: center;
   }
   .link h2 {
@@ -113,12 +109,11 @@
   .pro h2 {
     width: 40%;
     color: white;
-    font-weight: 600;
   }
 
   /* GAMES */
   .status {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .status input {
