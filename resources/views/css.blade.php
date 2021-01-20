@@ -15,6 +15,20 @@
     opacity: 0.8;
   }
 
+  label {
+    color: #658ec6;
+    opacity: 0.9;
+  }
+
+  .form-control,
+  input[type="text"],
+  input[type="text"]:focus,
+  input[type="text"]::placeholder {
+    border-color: #426696;
+    background-color: #658ec6;
+    color: #426696;
+  }
+
   h3 {
     color: #426696;
     opacity: 0.8;
