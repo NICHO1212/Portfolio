@@ -17,13 +17,12 @@
     opacity: 0.8;
   }
 
-  h2,
-  p {
+  h2 {
     color: var(--color2);
     opacity: 0.8;
   }
 
-  h3 {
+  p {
     color: var(--color1);
     opacity: 0.8;
   }
@@ -86,7 +85,8 @@
 
   .form-control,
   .form-control:focus,
-  .btn {
+  .btn, 
+  .btn:hover {
     border-color: var(--color2);
     background: white;
     color: var(--color2);
