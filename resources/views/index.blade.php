@@ -29,17 +29,17 @@
         </div>
         <div class="links">
           <div class="link">
-            <a href="{{ route('contact') }}">
+            <a href="{{ url('contact') }}">
               <h2>About Me</h2>
             </a>
           </div>
           <div class="link">
-            <a href="{{ route('contact') }}">
+            <a href="{{ url('contact') }}">
               <h2>Repositories</h2>
             </a>
           </div>
           <div class="link">
-            <a href="{{ route('contact') }}">
+            <a href="{{ url('contact') }}">
               <h2>Contact</h2>
             </a>
           </div>
