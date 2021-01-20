@@ -11,7 +11,7 @@
 
         <!-- Styles -->
         @include(css.welcome)
-        
+
     </head>
     <body>
         <main>
