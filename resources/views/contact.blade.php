@@ -8,13 +8,13 @@
   <div class="card">
     <div class="card-info">
       <a href="https://t.me/EstebanSalasGuzman">
-        <i class="fab fa-telegram"></i>
+        <i class="fab fa-telegram fa-3x"></i>
       </a>
       <a href="https://twitter.com/Nicho_Esteban">
-        <i class="fab fa-twitter"></i>
+        <i class="fab fa-twitter fa-3x"></i>
       </a>
       <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw">
-        <i class="fab fa-youtube"></i>
+        <i class="fab fa-youtube fa-3x"></i>
       </a>
     </div>
   </div>
