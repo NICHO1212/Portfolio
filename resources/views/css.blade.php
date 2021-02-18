@@ -32,6 +32,10 @@
     opacity: 0.8;
   }
 
+  textarea {
+    resize: none;
+  }
+
   main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -130,6 +134,8 @@
   .card-info {
     display: flex;
     justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .card-info a,

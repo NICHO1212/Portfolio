@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'Esteban Salas Guzmán'),
 
+    'email' => env('APP_EMAIL', 'una.esteban@gmail.com'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

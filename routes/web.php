@@ -14,9 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('about_me');
 });
 
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/repositories', function () {
+    return view('repositories');
+});
+
+Route::post('/send', 'EmailController@send');

@@ -35,12 +35,12 @@
         </div>
         <div>
           <div class="link">
-            <a href="{{ url('contact') }}">
+            <a href="{{ url('/') }}">
               <h2>About Me</h2>
             </a>
           </div>
           <div class="link">
-            <a href="{{ url('contact') }}">
+            <a href="{{ url('repositories') }}">
               <h2>Repositories</h2>
             </a>
           </div>
