@@ -7,7 +7,7 @@
 <div class="cards">
   <div class="card">
     <div class="card-info">
-      <a href="https://t.me/EstebanSalasGuzman" title="Telegram">
+      <a href="https://t.me/ManudoKiller" title="Telegram">
         <i class="fab fa-telegram fa-3x"></i>
       </a>
       <a href="https://twitter.com/Nicho_Esteban" title="Twitter">
