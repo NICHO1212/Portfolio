@@ -22,7 +22,6 @@ class EmailController extends Controller
             Notification::route('mail', config('app.email'))
                 ->notify(new ContactTo($contact));
         } catch (\Throwable $th) {
-            dd($th);
             return redirect()->back()->withInput()->withErrors([
                 'error' => 'Oops! There was an error, please try again later.'
             ]);
