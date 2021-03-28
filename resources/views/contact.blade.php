@@ -13,7 +13,7 @@
       <a href="https://www.linkedin.com/in/esteban-enrique-salas-guzm%C3%A1n-862b8a101/" title="LinkedIn">
         <i class="fab fa-linkedin-in fa-3x"></i>
       </a>
-      <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw" title="YouTube Channel">
+      <a href="https://www.youtube.com/playlist?list=PLtC2fXjf_C2SpP4DqnP8GKfC3W37hfB-_" title="YouTube Channel">
         <i class="fab fa-youtube fa-3x"></i>
       </a>
     </div>
