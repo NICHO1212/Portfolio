@@ -1,25 +1,12 @@
 @extends('index')
 
 @section('content')
-<div class="content-head">
-  <h1>Contact</h1>
-</div>
-<div class="cards">
-  <div class="card">
-    <div class="card-info">
-      <a href="https://t.me/ManudoKiller" title="Telegram">
-        <i class="fab fa-telegram fa-3x"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/esteban-enrique-salas-guzm%C3%A1n-862b8a101/" title="LinkedIn">
-        <i class="fab fa-linkedin-in fa-3x"></i>
-      </a>
-      <a href="https://www.youtube.com/playlist?list=PLtC2fXjf_C2SpP4DqnP8GKfC3W37hfB-_" title="YouTube Channel">
-        <i class="fab fa-youtube fa-3x"></i>
-      </a>
-    </div>
+
+<div class="card">
+  <div class="card-header">
+    <h3>Contact</h3>
   </div>
-  <div class="card">
-    <p><strong>Send me a message</strong></p>
+  <div class="card-body">
     <form method="post" action="{{ url('/send') }}">
       @csrf
       <div class="form-group">
@@ -47,8 +34,7 @@
           </span>
         @enderror
       </div>
-      <button type="submit" class="btn btn-primary-outline">Send Message</button>
-      <br><br>
+      <button type="submit" class="btn btn-outline-primary">Send Message</button>
       @error('success')
         <div class="isset alert alert-success alert-dismissible fade show" role="alert">
           {{ $errors->first('success') }}
@@ -67,5 +53,19 @@
       @enderror
     </form>
   </div>
+  <div class="card-footer">
+    <div class="card-info">
+      <a href="https://t.me/ManudoKiller" title="Telegram">
+        <i class="fab fa-telegram fa-3x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/esteban-enrique-salas-guzm%C3%A1n-862b8a101/" title="LinkedIn">
+        <i class="fab fa-linkedin-in fa-3x"></i>
+      </a>
+      <a href="https://www.youtube.com/playlist?list=PLtC2fXjf_C2SpP4DqnP8GKfC3W37hfB-_" title="YouTube Channel">
+        <i class="fab fa-youtube fa-3x"></i>
+      </a>
+    </div>
+  </div>
 </div>
+
 @endsection
