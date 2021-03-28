@@ -19,7 +19,7 @@
       </a>
     </div>
   </div>
-  <div class="card-footer">
+  <div class="card-footer card-footer-wide">
     <div class="card-info">
       <a class="link" href="https://bitbucket.org/manudokiller/api-web-laravel-7/src/master/" title="Api - Web - Laravel 7">
         API
@@ -27,6 +27,24 @@
       <a class="link" href="https://bitbucket.org/manudokiller/graphql/src/master/" title="Graphql - Laravel 7">
         Graphql
       </a>
+      <a class="link" href="https://bitbucket.org/manudokiller/twilio-laravel-7/src/master/" title="Twilio - Laravel 7">
+        Twilio Chat
+      </a>
+      <a class="link" href="https://github.com/NICHO1212/Portfolio" title="Portfolio - Laravel 7">
+        This Portfolio
+      </a>
+    </div>
+  </div>
+  <div class="card-footer card-footer-small">
+    <div class="card-info">
+      <a class="link" href="https://bitbucket.org/manudokiller/api-web-laravel-7/src/master/" title="Api - Web - Laravel 7">
+        API
+      </a>
+      <a class="link" href="https://bitbucket.org/manudokiller/graphql/src/master/" title="Graphql - Laravel 7">
+        Graphql
+      </a>
+    </div>
+    <div class="card-info">
       <a class="link" href="https://bitbucket.org/manudokiller/twilio-laravel-7/src/master/" title="Twilio - Laravel 7">
         Twilio Chat
       </a>

@@ -66,6 +66,10 @@
     padding-right: 15vw;
   }
 
+  .card-footer-small {
+    display: none;
+  }
+
   .form-control,
   .btn {
     border-color: white;
@@ -95,8 +99,11 @@
     }
 
     .card-info {
-      padding-left: 5vw;
-      padding-right: 5vw;
+      padding: 0;
+    }
+
+    .card-about {
+      padding: 1rem 0 1rem 0;
     }
 
     .circle {
@@ -112,6 +119,14 @@
     .circle-left {
       bottom: -1.5rem; 
       left: -1.25rem; 
+    }
+
+    .card-footer-small {
+      display: inline;
+    }
+
+    .card-footer-wide {
+      display: none;
     }
 
   }
