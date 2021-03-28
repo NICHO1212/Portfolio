@@ -1,7 +1,6 @@
 <style>
   :root {
-    --color1: #426696;
-    --color2: #658ec6;
+    --color1: white;
   }
 </style>
 
@@ -10,20 +9,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--color1);
   }
 
-  a:link {
+  a:hover{
     text-decoration: none;
   }
 
-  h1, h5, p, label {
+  .form-control::placeholder {
     color: var(--color1);
-    opacity: 0.8;
-  }
-
-  h2 {
-    color: var(--color2);
-    opacity: 0.8;
   }
 
   textarea {
@@ -33,17 +27,16 @@
   main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    background: linear-gradient(to left bottom, rgb(0, 0, 0), rgb(175, 0, 0));
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .glass {
-    background: white;
     min-height: 80vh;
     width: 60%;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(175, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
     border-radius: 0.5rem;
     z-index: 2;
     backdrop-filter: blur(0.5rem);
@@ -52,8 +45,6 @@
 
   .circle1,
   .circle2 {
-    background: white;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
     height: 10rem;
     width: 10rem;
     position: absolute;
@@ -63,11 +54,13 @@
   .circle1 {
     top: 5%;
     right: 15%;
+    background: linear-gradient(to right bottom, rgba(175, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
   }
 
   .circle2 {
     bottom: 5%;
     left: 15%;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(175, 0, 0, 0.3));
   }
 
   .dashboard {
@@ -77,7 +70,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(175, 0, 0, 0.3));
     border-radius: 0.5rem;
   }
 
@@ -85,10 +78,9 @@
   .form-control:focus,
   .btn, 
   .btn:hover {
-    border-color: var(--color2);
-    background: white;
-    color: var(--color2);
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-color: var(--color1);
+    color: var(--color1);
+    background: linear-gradient(to right bottom, rgba(175, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
     border-radius: 0.5rem;
   }
 
@@ -118,11 +110,11 @@
 
   .card {
     display: flex;
-    background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+    background: linear-gradient(to left top, rgba(175, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
     border-radius: 1rem;
     margin: 0.5rem 0rem;
     padding: 0.5rem;
-    box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.8);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.8);
     justify-content: space-between;
   }
 
@@ -143,4 +135,15 @@
     text-align: center;
   }
 
+</style>
+
+<style>
+  @media screen and (max-width: 600px){
+    .glass {
+      min-width: 90vh;
+    }
+    .circle1, .circle2 {
+      display: hide;
+    }
+  }
 </style>

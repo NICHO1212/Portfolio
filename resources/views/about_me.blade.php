@@ -14,8 +14,8 @@
       and now learning VUE.js to integrate it.</h5>
   </div>
   <div class="card card-about">
-    <h5>Visit my personal proyect:
-      <a href="https://travelersaroundtheworld.com">TATW</a></h5>
+    <h5>Visit my personal proyect</h5>
+    <a href="https://travelersaroundtheworld.com"><h5>TATW</h5></a>
   </div>
 </div>
 @endsection
