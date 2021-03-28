@@ -10,8 +10,8 @@
       <a href="https://t.me/ManudoKiller" title="Telegram">
         <i class="fab fa-telegram fa-3x"></i>
       </a>
-      <a href="https://twitter.com/Nicho_Esteban" title="Twitter">
-        <i class="fab fa-twitter fa-3x"></i>
+      <a href="https://www.linkedin.com/in/esteban-enrique-salas-guzm%C3%A1n-862b8a101/" title="LinkedIn">
+        <i class="fab fa-linkedin-in fa-3x"></i>
       </a>
       <a href="https://www.youtube.com/channel/UCVIv44SbRK7YlirwidlZEAw" title="YouTube Channel">
         <i class="fab fa-youtube fa-3x"></i>
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="card">
-    <p>Send me a message</p>
+    <p><strong>Send me a message</strong></p>
     <form method="post" action="{{ url('/send') }}">
       @csrf
       <div class="form-group">

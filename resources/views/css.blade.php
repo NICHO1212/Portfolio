@@ -1,6 +1,6 @@
 <style>
   :root {
-    --color1:#426696;
+    --color1: #426696;
     --color2: #658ec6;
   }
 </style>
@@ -12,23 +12,17 @@
     box-sizing: border-box;
   }
 
-  h1 {
+  a:link {
+    text-decoration: none;
+  }
+
+  h1, h5, p, label {
     color: var(--color1);
     opacity: 0.8;
   }
 
   h2 {
     color: var(--color2);
-    opacity: 0.8;
-  }
-
-  p {
-    color: var(--color1);
-    opacity: 0.8;
-  }
-
-  label {
-    color: var(--color1);
     opacity: 0.8;
   }
 
@@ -103,6 +97,7 @@
     margin: 0.5rem 0rem;
     padding: 0.25rem 0.5rem;
     align-items: center;
+    text-align: center;
   }
 
   .link h2 {
@@ -141,6 +136,11 @@
   .card-info a,
   .card-info a:hover {
     color: var(--color1);
+  }
+
+  .card-about {
+    padding: 2rem;
+    text-align: center;
   }
 
 </style>
