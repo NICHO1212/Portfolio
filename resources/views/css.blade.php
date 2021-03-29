@@ -131,4 +131,22 @@
 
   }
 
+  @media only screen and (max-width: 1200px) {
+    .container {
+      min-width: 80vw;
+    }
+
+    .card-about {
+      padding: 1rem 0 1rem 0;
+    }
+
+    .card-footer-small {
+      display: inline;
+    }
+
+    .card-footer-wide {
+      display: none;
+    }
+  }
+
 </style>
