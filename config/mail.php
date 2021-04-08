@@ -36,11 +36,11 @@ return [
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
-            'host' => env('MAIL_HOST', 'smtp.googlemail.com'),
+            'host' => env('MAIL_HOST', 'smtp.google.com'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => env('MAIL_USERNAME', 'adzn.tcu.2021@gmail.com'),
-            'password' => env('MAIL_PASSWORD', 'jwxzyddbhpmsqdlo'),
+            'username' => env('MAIL_USERNAME', 'forge'),
+            'password' => env('MAIL_PASSWORD', 'forge'),
             'timeout' => null,
             'auth_mode' => null,
         ],
